@@ -1,0 +1,30 @@
+#login{
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 40px;
+    padding-top: 10px;
+    width: 400px;
+    margin: auto;
+}
+
+input{
+    text-align: center;
+}
+
+#olho{
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../imagens/fechado.jpg");
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 7px;
+    cursor: pointer;
+}
+
+#olho:hover{
+    background-image: url("../imagens/aberto.jpg");
+}
